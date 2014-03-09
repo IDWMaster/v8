@@ -86,8 +86,8 @@
         }],
         ['v8_enable_i18n_support==1', {
           'dependencies': [
-            '<(icu_gyp_path):icui18n',
-            '<(icu_gyp_path):icuuc',
+            '<(icu_gyp_path):icui18n_modified',
+            '<(icu_gyp_path):icuuc_modified',
           ],
         }],
         ['OS=="win" and v8_enable_i18n_support==1', {
